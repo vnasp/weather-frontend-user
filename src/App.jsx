@@ -14,7 +14,7 @@ export default function App() {
   });
 
   const API_WEATHER = "http://api.weatherapi.com/v1/current.json?key=";
-  const TOKEN = import.meta.env.VITE_API_KEY;
+  const TOKEN = VITE_API_KEY
   const SEARCH = "&lang=es&q=";
 
   const SubmitEvent = async (event) => {
