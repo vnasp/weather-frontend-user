@@ -11,7 +11,7 @@ export default function Weather({ weather }) {
           flexDirection="column"
           alignItems="center"
           justifyContent="top"
-          border={1}
+          border={2}
           sx={{
             width: "auto", 
             height: 400,
@@ -24,7 +24,7 @@ export default function Weather({ weather }) {
             mt: 2,
           }}
         >
-          <Typography variant="h6" component="h2" align="center" sx={{}}>
+          <Typography variant="h6" component="h2" align="center" sx={{mt:-4, mb:4}}>
             {weather.city}, {weather.country}
           </Typography>
               <img src={weather.icon} alt={weather.conditionText}/>
