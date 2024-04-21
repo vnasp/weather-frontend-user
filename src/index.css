@@ -1,9 +1,9 @@
 body {
-  background-image: url('/background.webp');
+  background-image: url("/background.webp");
   background-size: cover;
   background-position: center 10%;
-  display:grid;
-  justify-content: center;
-  align-items: start;
-  height: 100vh;
+}
+p{
+  margin:0;
+  padding:0;
 }
